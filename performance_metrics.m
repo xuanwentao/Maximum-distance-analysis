@@ -1,4 +1,4 @@
-function [E_aad,E_aid,E_sad,E_sid,E_rmse] = performance_metrics(A,Aest,mixed,abf,M,N,D,c)
+function [E_aad,E_aid,E_sad,E_sid,E_rmse,Aest] = performance_metrics(A,Aest,mixed,abf,M,N,D,c)
 %%
 warning off;
 AA = [1e-5*Aest;ones(1,length(Aest(1,:)))];

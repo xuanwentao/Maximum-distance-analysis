@@ -1,7 +1,7 @@
 clear all;
 clc;
 tic;
-load('data10');
+load('data6');
 %% The first endmember
 D_O = sum(mixed.^2,2).^(1/2);
 [V_p,E_lab1]=max(D_O);
