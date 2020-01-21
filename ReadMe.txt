@@ -1,7 +1,7 @@
 This is a MATLAB implementation of Endmember estimation.
 
 The method is presented in the paper: Endmember Estimation with Maximum Distance Analysis
-Run demo_MDC.m
+Run demo_MDA.m
 
 data
 A-Reference spectral
